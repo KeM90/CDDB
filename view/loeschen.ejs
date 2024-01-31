@@ -1,0 +1,7 @@
+<%- include("kopf") %>
+    <h1>Eintrag löschen</h1>
+    <form action="/loeschen/<%= daten.id %>" method="post">
+        Löschvorgang bestätigen
+        <input type="submit" value="bestätigen">
+    </form>
+<%- include("fuss") %>
